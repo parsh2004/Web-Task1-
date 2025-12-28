@@ -28,5 +28,5 @@ To practice modern UI design and layout concepts while building real-world front
 ---
 ## 📷 Preview
 
-  ![Profile Page Preview](images/profile-page.png)
+  ![Profile Page Preview](profile-page.png)
 
