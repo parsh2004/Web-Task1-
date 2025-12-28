@@ -67,7 +67,90 @@ To practice modern UI design and layout concepts while building real-world front
 ```
 ---
 
+### CSS
+
+```
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color: aqua;
+    height: 100vh;
+    width: 200vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 0 10px black;
+}
+
+img{
+    width: 45%;
+    height: 30%;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 10px black;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.para{
+    color: #555;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: black;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+    padding-left: 20px;
+}
+
+button{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+.foot{
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+```
+
 ## 📷 Preview
 
   ![Profile Page Preview](profile-page.png)
 
+
+
+###                 THANK YOU
